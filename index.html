@@ -1,177 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ödev2</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
-    <style>
-        .frame {
-            width: 350px;
-            height: 500px;
-            background-color: #222;
-            margin: 10px;
-            border: 8px solid #222;
-            border-radius: 3px;
-            position: fixed;
-            left: 40%;
-            right: 40%;
-            top: auto;
-            bottom: auto;
-            
-
-        }
-
-        .bg-pic {
-            width: 350px;
-            height: 200px;
-            border-radius: 7px 7px 0px 0px;
-        }
-
-        .pp-pic {
-            width: 120px;
-            height: 120px;
-            border: 7px solid #222;
-            border-radius: 120px;
-            margin-left: 15px;
-            position: absolute;
-            top: 150px;
-
-        }
-
-        .name {
-            position: absolute;
-            left: 200px;
-            top: 230px;
-            font-size: large;
-            font-family: 'Tilt Warp', cursive;
-            color: antiquewhite;
-
-        }
-
-        .job {
-            font-family: 'Rajdhani', sans-serif;
-            color: seashell;
-            font-size: medium;
-            font-weight: 10;
-            position: relative;
-            top: 75px;
-            left: 100px;
-            transition: 1;
-
-
-
-        }
-
-        .btn {
-            border: 1px;
-            border-radius: 5px;
-            border-color: #7ce3ff;
-            background-color: #7ce3ff;
-            width: 100px;
-            height: 35px;
-            display: inline-block;
-            top: 80px;
-            left: 50px;
-            position: relative;
-            font-family: 'Tilt Warp', cursive;
-            cursor: pointer;
-
-
-        }
-
-
-
-        .btn2 {
-            
-            border-color: #7ce3ff;
-            border-radius: 5px;
-            background-color: #222;
-            color: #7ce3ff;
-            width: 100px;
-            height: 35px;
-            display: inline-block;
-            top: 80px;
-            left: 90px;
-            position: relative;
-            cursor: pointer;
-            font-family: 'Tilt Warp', cursive;
-        }
-
-        .btn2:hover {
-            background-color: #7ce3ff;
-            color: #222;
-            transition: 0.4s;
-        }
-
-        .icons  {
-            width: 200px;
-            display: flex;
-            background-color: #222;
-            justify-content: space-between;
-            position: relative;
-            top: 100px;
-            left: 75px;
-            color: grey;
-
-
-        }
-        .icons .i .a{
-            color:gray;
-            background-color: #222;
-           
-        }
-
-        .icons i :hover {
-            background-color: #222;
-            color: #7ce3ff;
-            transition: 0.4s;
-            cursor: pointer;
-
-        }
-        
-    </style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ödev2</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
 
 <body>
-    <div class="frame">
+    <div class="profile-card">
         <img class="bg-pic" src="./images/görsel7.jpg" alt="" />
-        <h3 class="name"> Emrullah ÜÇEL</h3>
-        <p class="job">Front End Developer</p>
-        <div class="pp">
+        <div class="profile-info">
+            <h3 class="name"> Emrullah ÜÇEL</h3>
+            <p class="job">Front End Developer</p>
             <img class="pp-pic" src="./images/p-photo.jpeg" alt="">
         </div>
-        <button class="btn"> Message</button>
+    <div class="btns">
+        <button class="btn1"> Message</button>
         <button class="btn2">Following</button>
-        <div class="icons">
-            <i>
-                <a href="https://www.linkedin.com/in/emrullah-%C3%BC%C3%A7el-512598268"><i class="fa-brands fa-linkedin"></i></a>
-            </i>
-            <i>
-                <a href="https://github.com/EmrullahUcel"><i class="fa-brands fa-github"></i></a>
-            </i>
-            <i>
-                <a href="https://www.youtube.com/@emrullahucel"><i class="fa-brands fa-youtube"></i></a>
-            </i>
-            <i>
-                <a  href="https://twitter.com/emrullahucel?s=09"><i class="fa-brands fa-twitter"></i></a>
-            </i>
-            <i>
-                <a style="color:gray; background-color: #222;" href="https://www.instagram.com/ucelemrullah/"><i class="fa-brands fa-instagram"></i></a>
-            </i>
+
+    </div>
+    
+    <div class="icons">
+        <i>
+            <a href="https://www.linkedin.com/in/emrullah-%C3%BC%C3%A7el-512598268"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </i>
+        <i>
+            <a href="https://github.com/EmrullahUcel"><i class="fa-brands fa-github"></i></a>
+        </i>
+        <i>
+            <a href="https://www.youtube.com/@emrullahucel"><i class="fa-brands fa-youtube"></i></a>
+        </i>
+        <i>
+            <a href="https://twitter.com/emrullahucel?s=09"><i class="fa-brands fa-twitter"></i></a>
+        </i>
+        <i>
+            <a href="https://www.instagram.com/ucelemrullah/"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </i>
 
 
-        </div>
+    </div>
 
 
     </div>

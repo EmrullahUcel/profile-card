@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    width: 350px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+   
+    
+}
+.profile-card {
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    border: 8px solid #222;
+    position: relative;
+    
+}
+
+.bg-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.pp-pic {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #222;
+    border-radius: 120px;
+    margin-left: 15px;
+    position: relative;
+    top: -100px;
+
+}
+
+.name {
+    font-size: large;
+    font-family: 'Tilt Warp', cursive;
+    color: antiquewhite;
+    position: relative;
+    left: 200px;
+    top: 30px;
+
+}
+
+.job {
+    font-family: 'Rajdhani', sans-serif;
+    color: seashell;
+    font-size: medium;
+    font-weight: 10;
+    position: relative;
+    top: 75px;
+    left: 100px;
+    transition: 1;
+
+
+
+}
+.btns{
+    position: relative;
+    margin: 0 15%;
+    
+
+}
+.btn1 , .btn2{
+    font-family: 'Tilt Warp', cursive;
+    background-color: #7ce3ff;
+    width: 120px ;
+    height: 35px ;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.btn2:hover {
+    transition: 0.5s;
+    background-color: #222;
+    color:white ;
+    border-color: #7ce3ff;
+}
+
+.icons  {
+    position: relative;
+    width: 200px;
+    display:flex;
+    background-color: #222;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.icons i a{
+    color:gray
+}
+
+.icons i :hover {
+    background-color: #222;
+    color: #7ce3ff;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
